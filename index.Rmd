@@ -1,5 +1,5 @@
 --- 
-title: "A Minimal Book Example"
+title: "Nachhaltigkeitstransformationen"
 author: "Christoph Bader"
 date: "`r Sys.Date()`"
 output:
@@ -9,22 +9,35 @@ output:
 documentclass: book
 bibliography: book.bib
 description: |
-  script for Bsc Minor in SD
+  Buch Nachhaltigkeitsinitiativen
 link-citations: yes
 site: bookdown::bookdown_site
 ---
 
-# About
+## Über das vorliegende Buch
 
-Herzlich willkommen zum Skript zur Vorlesung _Einführung Herausforderung für eine Nachhaltige Entwicklung_. Das Skript ist als Ergänzung zur Vorlesung gedacht und soll Ihnen helfen, die Inhalte besser zu verstehen und zu vertiefen.
+Wir sind überzeugt, dass Nachhaltigkeitsinitiativen mit ihrem Wirken wichtige Impulse leisten, um unsere Konsum- und Produktionssysteme nachhaltiger zu gestalten. Durch das Experimentieren und Testen neuer Angebote und Produkte, aber auch neuer Zusammenarbeitsformen, Geschäfts- und Finanzierungsmodelle, sowie Konsumierenden-Produzierenden-Beziehungen testen sie Möglichkeiten, wie eine zukunftsfähige Wirtschaft und Gesellschaft aussehen könnten. Mit dem vorliegenden Buch möchten wir einen Beitrag dazu leisten, dieses wichtige Potential von Nachhaltigkeitsinitiativen für einen Wandel Richtung nachhaltigerer Konsum- und Produktionssysteme, noch besser in Wert zu setzen. 
 
-## Gebrauch
+  
 
-Die Vorlesung _Einführung Herausforderung für eine Nachhaltige Entwicklung_ behandelt das Thema [hier das Thema der Vorlesung einfügen]. Dabei werden wir uns mit [hier kurz die Themenbereiche der Vorlesung aufzählen] beschäftigen. Die Vorlesung ist darauf ausgelegt, Ihnen ein grundlegendes Verständnis für [hier den Zweck oder die Anwendungsbereiche des Themas einfügen] zu vermitteln.
+Im Fokus des Buches stand für uns deshalb die Frage, welchen Herausforderungen Nachhaltigkeitsinitiativen in der Schweiz begegnen, sowohl bei ihrer Entstehung, insbesondere aber auch dann, wenn es um eine erfolgreiche Etablierung, Verstetigung und Wirkungsentfaltung geht. Nachhaltigkeitsinitiativen betreten mit ihrem Wirken Neuland und so divers ihre Wirkungsbereiche und Ideen sind, so vielfältig gestalten sich auch die Herausforderungen, welchen sie begegnen. Gleichwohl haben sich im Laufe unserer Arbeiten einige zentrale Bereiche herauskristallisiert, in welchen fast alle, oder zumindest viele Initiativen auf Herausforderungen stossen. Dies sind erstens Herausforderungen beim Generieren genügend finanzieller und nicht-finanzieller Ressourcen, um die eigenen Ziele zu erreichen. Zweitens sind es Fragen danach, wie sie sich aufstellen und organisieren. Dies einerseits in Bezug auf die Organisations- und Rechtsform, welche sie sich geben und andererseits, wie interne Prozesse organisiert und insbesondere gemeinsames Wissen generiert und geteilt werden kann. Drittens stossen Initiativen vielfach auf institutionelle, infrastrukturelle und anreiz-basierte Rahmenbedingungen, welche ihre neue Idee nicht vorsehen und eine Umsetzung daher schwierig machen. Es stellt sich also die Herausforderung, wie gemeinsam Wirkung entwickelt werden kann, um förderlichere/passendere Rahmenbedingungen zu schaffen. 
 
-## Selbsttest
+Das vorliegende Buch basiert auf der Annahme, dass viele Initiativen aber auch bereits erfolgreiche Lösungsansätze für diese verschiedenen Herausforderungen gefunden haben. Diese lassen sich zwar vielleicht nicht direkt übertragen, sie können aber andere Initiativen bei der Lösungsfindung inspirieren. Wir möchten in dem Sinne mit dem vorliegenden Buch, durch das Porträtieren «guter Beispiele/gelungener Beispiele» aufzeigen, wie verschiedene Initiativen diverse Herausforderungen gemeistert haben, um so diese Erfahrungen breit zu teilen und dadurch andere Initiativen auf dem Weg der Etablierung und Verstetigung zu inspirieren und zu unterstützen. Denn 
 
-Wir haben für Sie einen Selbsttest zur Grundlagenvorlesung Nachhaltige Entwicklung zusammengestellt. Diesen können Sie innerhalb der ILIAS-Umgebung der Universität Bern absolvieren:
-www.ilias.unibe.ch
+  
+
+Ev. etwas mehr zu unserem Approach: Lernen aus guten Beispielen (vielleicht mit 1-2 Quellen) 
+
+  
+
+In dem Sinne richtet sich das vorliegende Buch in erster Linie an motivierte und engagierte Personen in Nachhaltigkeitsinitiativen, und solche, die gerne selber in solchen Initiativen aktiv werden möchten. Wir hoffen, durch die Beschreibung der möglichen Herausforderungen, sowie der Ansätze, welche andere zur Bewältigung gewählt haben, zu inspirieren und zu unterstützen. Zweitens denken wir, dass das vorliegende Buch auch für Menschen interessant ist, welche versuchen, Nachhaltigkeitsinitiativen zu fördern und zu unterstützen. Wir hoffen, mit dem Buch das Verständnis für die spezifischen Herausforderungen von Nachhaltigkeitsinitiativen zu vergrössern und die Bereitschaft zur Unterstützung bei der innovativen Lösungssuche zu fördern. Denn eine solche Unterstützung ist auf vielfältige Weise möglich, sei es in Form von Partnerschaften mit etablierten Organisationen und Unternehmen, Unterstützung durch Gemeinde und Städte, wie auch nicht zuletzt durch innovative Fördergefässe. Nicht zuletzt soll das vorliegende Buch auch alle Menschen inspirieren, welchen der Schutz der natürlichen Ressourcen ein Anliegen ist und die aktuellen Konsumgewohnheiten hinterfragen wollen. Mit dem Fokus auf den Beitrag von Nachhaltigkeitsinitiativen soll ein weiterer Weg aufgezeigt werden, wie der notwendige Wandel geschafft werden kann – nämlich Wandel von unten durch zivilgesellschaftliche Innovationen. Das Buch soll damit eine Motivationsquelle sein, die eigenen Konsumgewohnheiten zu hinterfragen und neue, vielleicht noch wenig bekannte Alternativen auszuprobieren. 
+
+  
+
+Die Arbeiten zu diesem Buch entstanden in vielen Gesprächen mit engagierten Personen in verschiedenen Initiativen in der Schweiz, welche wir in zwei verschiedenen Forschungsprojekten am Zentrum für Nachhaltige Entwicklung und Umwelt der Universität Bern führten. Untermauert und ergänzt wurden diese Erkenntnisse aus der Praxis mit Dokumenten-, Theorie- und Literaturarbeiten und nicht zuletzt bereichert durch verschiedene studentische Arbeiten, welche zu Nachhaltigkeitsinitiativen entstanden. 
+
+  
+
+Das Buch ist wie folgt gegliedert. Im nachfolgenden Kapitel 2 … 
 
 

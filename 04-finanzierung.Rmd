@@ -9,18 +9,119 @@ description: "Buch Nachhaltigkeitsinitiativen"
 output: bookdown::gitbook
 
 ---
-# Footnotes and citations 
+# Mittel beschaffen
+Für den Erfolg von Initiativen ist es zentral, den richtigen Mix aus Spenden, Mitgliedsbeiträgen, Freiwilligenarbeit und Leistungsentgelten zu finden. Als grundlegende Herausforderung stellt sich hier, dass aktuell nur wenige Finanzierungsmöglichkeiten vorhanden sind und diese vorwiegend auf zeitlich befristete Projekte als auf eine kontinuierliche Grundleistung ausgelegt sind. Durch die Unübersichtlichkeit und Dezentralität der Finanzierungsquellen sowie grosser Konkurrenz bei deren Nachfrage ergeben sich hohe Aufwände bei der Mittelbeschaffung.  
 
-## Footnotes
+## Woher kommen die benötigten Mittel? 
 
-Footnotes are put inside the square brackets after a caret `^[]`. Like this one ^[This is a footnote.]. 
+Die Beschaffung von genügend finanziellen Mitteln sowie Arbeitskräften und Infrastruktur ist eine Herausforderung, mit welcher alle Unternehmen und Initiativen früher oder später konfrontiert werden. Nachhaltigkeitsinitiativen berichten aufgrund ihrer meist wertbasierten Ziele im Sinne ökologischer oder gesellschaftlicher Beiträge (F. W. Geels, 2019; Seyfang & Smith, 2007) jedoch spezifische Schwierigkeiten bei der Beschaffung entsprechender Mittel (Penha-Lopes & Henfrey, 2019). Die finanziellen Ressourcen von Nachhaltigkeitsinitiativen stammen vielfach aus Spenden, Mitgliederbeiträgen, Fördergeldern öffentlicher und privater Geldgeber, sowie Leistungsentgelten für Produkte, Dienstleistungen, Events und ähnliches (Hossain, 2016; Penha-Lopes & Henfrey, 2019; Spiess-Knafl & Langer, 2019). Die kommerziellen Aktivitäten sind dabei anders als bei profitorientierten Unternehmen ein Mittel zum Zweck, aber nicht das vorherrschende Ziel der gemeinsamen Tätigkeiten. Dementsprechend bestehen auch die Hauptaktivitäten der Initiativen nicht in der Generierung von Profit, sondern im Bereitstellen von Produkten und Dienstleistungen mit gesellschaftlichem Wert. Damit nehmen eine Vielzahl von Nachhaltigkeitsinitiativen eine Mittelposition zwischen profitorientierten Unternehmen und spendenbasierten Non-Profit Organisationen. Diese Mittelposition hat Auswirkungen auf die Mittelbeschaffung, da Nachhaltigkeitsinitiativen die nicht eindeutig als Non-Profit Initiativen (bspw. Vereine oder Stiftungen) organisiert sind, Schwierigkeiten haben sich durch Spenden-, Stiftungs- und Fördergelder zu finanzieren.  
 
-## Citations
+> «Wenn wir als OFFCUT für Gelder anfragen, dann gibt es oft wenig Verständnis, da wir ja Umsatz machen und Materialien verkaufen. Die Stiftungslandschaft ist grösstenteils sehr veraltet und konservativ – Naturschutz usw. ist in deren Stiftungszweck verankert. Das spüren wir beim Fundraising stark, wir fühlen uns weder Fisch von Vogel.» Interview mit Claudia Meyr, OFFCUT 
 
-Reference items in your bibliography file(s) using `@key`.
+Aus diesen Gründen sind Nachhaltigkeitsinitiativen auf innovative Finanzierungsformen wie u.a. Crowdfunding-Finanzierungen, Abonnements basierte Finanzierungsformen oder Zeittauschmodelle (siehe Abschnitt Innovative Finanzierungsformen) angewiesen. 
 
-For example, we are using the **bookdown** package (check out the last code chunk in index.Rmd to see how this citation key was added) in this sample book, which was built on top of R Markdown and **knitr** [@xie2015] (this citation was added manually in an external file book.bib). 
-Note that the `.bib` files need to be listed in the index.Rmd with the YAML `bibliography` key.
+Eine weitere Herausforderung von Nachhaltigkeitsinitiativen ist der oft hohe Anteil von geleisteten Aufwänden, welche nicht auf bezahlter Arbeit basiert, sondern durch Ehrenamt oder materieller bzw. sozialer Vergütung erbracht wird.   
+
+Das stetige Rekrutieren von Freiwilligen und Spenden, aber auch das Beantragen von Fördergeldern erfordert zeitlichen Aufwand (Dana et al., 2019), welche die Initianten vielfach eigentlich lieber in den eigentlichen Tätigkeitszweck der Initiative stecken würden. Weiter benötigt es Erfahrung und Wissen wie erfolgsversprechende Gesuche verfasst, und wo entsprechende Anträge eingereicht werden können. Anlaufstellen für entsprechende Fördergelder sind in der Schweiz aktuell begrenzt, sodass eine grosse Konkurrenz um vorhandene Gelder herrscht. Auch sind die meisten Fördergefässe darauf ausgerichtet, dass neue Projekte, nicht jedoch laufende Tätigkeiten als förderwürdig erachtet werden und damit für eine Sicherung der benötigten Grundfinanzierung ungeeignet. 
+
+Die Abhängigkeit von Leistungen von Freiwilligen birgt gleich mehrere Herausforderungen (Dinnie & Holstead, 2018; Feola & Nunes, 2014; Penha-Lopes & Henfrey, 2019). Freiwillige bringen viel Elan und Motivation, nicht immer jedoch die benötigten Kompetenzen (zum Beispiel in Bezug auf administrative Arbeiten, ICT, Kommunikation und Finanzen) um bei Grundaktivitäten aushelfen zu können. Freiwillige leisten eine begrenzte Anzahl Stunden, welche zumeist mit grosser zeitlicher Flexibilität verbunden eingebracht werden wollen. Die Koordination vielen kleinteiligen Freiwilligeneinsätzen erfordert jedoch oft grossen Aufwand. Wird die benötigte Koordinations- und Leitungsarbeit auf (rein) freiwilliger Basis gelöst, besteht die Gefahr, dass dieser hohe Aufwand nur über eine bestimmte Zeit bspw. in der anfänglichen Aufbauphase geleistet wird, nicht jedoch über eine längere Zeit aufrechterhalten werden kann.  
+
+>«Die kleinen Stellenprozente hatten auch damit zu tun, dass viele junge Leute sich ehrenamtlich engagierten, jedoch dadurch keine grossen Pensen unbezahlt übernehmen konnten. Früher war ich eher bereit, ehrenamtlich zu arbeiten, um ideell getrieben auch Erfahrungen zu sammeln. Heute würde ich mir meine Expertise eher bezahlen lassen.» Interview mit Jana Huwyler, Madame Frigo 
+
+>«Wir haben gemerkt, die Arbeit sprengt unser Pensum. Wir wussten, wir müssen mehr Zeit investieren, welche wir auf freiwilligenbasis aber nicht mehr opfern wollten. Schliesslich hatten wir alle noch Uni, Studentenjobs, Freunde und erst Priorität 4 oder 5 war dann Madame Frigo. Uns wurde klar, wir mussten einen deutlichen Wandel in der Priorisierung des Projektes machen. Madame Frigo musste für eine erfolgreiche Weiterentwicklung mindestens auf das Level eines Studentenjobs gelangen. Wir Engagierten mussten daran was verdienen können.» Interview Jana Huwyler, Madame Frigo, Januar 2022 
+
+Wir stellen im Folgenden dar, welche Möglichkeiten bestehen, und welche innovativen Lösungen verschiedene Initiativen in der Schweiz im Umgang mit der Herausforderung der Mittelbeschaffung gefunden haben. In einem ersten Abschnitt porträtieren wir Nachhaltigkeitsinitiativen, welche erfolgreich innovative Finanzierungsformen umgesetzt haben wie zum Beispiel mittels einem Umsatzbeteiligungsmodell, einem Zeittauschmodell oder dem Prinzip einer Vertragslandwirtschaft. In einem zweiten Schritt innovative Förderprogramme. Schliesslich Aufwände teilen 
+
+## Innovative Finanzierungsformen
+Die Aufnahme von Eigen- oder Fremdkapital ist je nach Ausgestaltung mit einer Abgabe von Kontroll- und Stimmrechten verbunden. So stehen viele Initiativen im Interessenskonflikt zwischen Selbstbestimmung und dem Ziel, über genügend Startkapital zu verfügen. Einerseits werden bei Aktiengesellschaften die Aktionär*innen, bei GmbHs die Gesellschafter*innen, bei Genossenschaften die Genossenschafter*innen und bei Vereinen die Mitglieder in die Initiativen integriert und bringen so Startkapital ein, andererseits können diese damit auch über die Geschäftsführung mitbestimmen. Weiter kann insbesondere die Aufnahme von Fremdkapital zu einem Wachstumsdruck führen, da dieses oft verzinst ist und innerhalb einem bestimmten Zeitrahmen zurückbezahlt werden muss. Entsprechende ökonomische Logiken bringen Initiativen teilweise in Konflikt mit ihren Zielen und Idealen (ihrer sozialen Missionen), respektive entsprechender Erwartungen ihrer Mitglieder und Zielgruppen (Dana et al., 2019; Penha-Lopes & Henfrey, 2019). Schliesslich kann auch eine zu grosse Abhängigkeit von öffentlichen Fördergeldern oder Spenden privater Geldgeber zu Schwierigkeiten führen. Einerseits kann die finanzielle Stabilität der Initiative gefährdet sein, wenn entsprechende grössere Beträge ausbleiben oder wegfallen (Becker et al., 2018; Dana et al., 2019). Anderseits kann je nach Tätigkeitszweck ein Glaubwürdigkeitskonflikt auftreten. Nicht zuletzt besteht vielfach ein Konflikt zwischen der finanziellen Langfristperspektive, welche Initiativen brauchen und der Kurzfristigkeit von Förderprogrammen verbunden mit sehr kurzfristigen Ergebniserwartung (Creamer, 2015; Dinnie & Holstead, 2018; Sonntag-Padilla et al., 2012). 
+
+Für den Erfolg von Initiativen ist es also einerseits den Bedarf an Mitteln stetig zu überprüfen und diesen möglichst gering zu halten und damit agil und unabhängig zu bleiben (Adina Dumitru, 2016). Anderseits ist es zentral, für die benötigten Mittel ein innovatives Finanzierungsmodell aufzubauen, welches auf einem diversifizierten Mix aus verschiedenen Einkommensquellen basiert (Scheuerle et al., 2015). Dieser Mix kann in einer ausgewogenen Balance aus Eigen- und Fremdkapital, Spenden, Förderbeiträgen, Mitgliederbeiträgen, Freiwilligenarbeit und Leistungsentgelten bestehen. Eine stabile und diverse Basis der Herkunft der benötigten Mittel erlaubt Initiativen entsprechende Handlungsfreiräume und die Konzentration auf den eigentlichen Tätigkeitszweck. Zudem trägt die Diversität der Einkommensquellen zur Resilienz bei. Wenn eine Einnahmequelle versiegt, ermöglichen die anderen Einnahmequellen die Fortführung der Haupttätigkeiten der Initiative, während neue Einkommensmöglichkeiten erkundet werden. 
+
+### Von Crowdfunding und Umsatzbeteiligungsmodellen 
+Kapitalbeschaffung ist für Initiativen dann attraktiv, wenn diese nicht mit Rückzahlungs- oder Gewinnbeteiligungsverpflichtungen verknüpft ist. Vielfach stammen Startfinanzierungen von Initiativen aus dem persönlichen Guthaben der Gründer*innen und ihrem Bekanntenkreis (zum Beispiel in Form von Spenden oder Beteiligungen). Eine weitere Möglichkeit stellt Crowdfunding als Finanzierungsform von Projekten und Initiativen über das Internet dar. Dabei werden die benötigten Mittel von einer Vielzahl an Menschen aufgebracht. Die Art der Gegenleistung kann dabei einerseits monetär sein bspw. indem Kapitalgebende am Unternehmenserfolg partizipieren (Crowdinvesting) oder einen Zinsertrag erhalten (Crowdlending) für das zur Verfügung gestellte Kapital erhalten. Andererseits kann die Gegenleistung auch nicht-monetär sein bspw. indem als Entschädigung Produkte oder Dienstleistungen angeboten werden (Crowdsupporting oder reward-based crowdfunding). Schliesslich ist es auch möglich, dass keine Gegenleistungen angeboten werden (Crowddonating). 
+
+::: {.defbox data-latex=""}
+Portrait Crowdfunding
 
 
-The RStudio Visual Markdown Editor can also make it easier to insert citations: <https://rstudio.github.io/visual-markdown-editing/#/citations>
+
+
+
+:::
+
+Gerade im Bereich von Initiativen haben sich aber auch eine Vielzahl von sogenanntem Hypbrid-Kapital Formen herausgebildet wie zum Beispiel Umsatzbeteiligungsmodelle, Convertible Grants oder Forgivable Loans (Spiess-Knafl & Langer, 2019). Convertible Loans (Wandeldarlehnen) haben den Charakter von Spenden oder Zuschüssen, welche nur im Falle von Erfolg in eine Unternehmensbeteiligung umgewandelt werden. Fairphone hat beispielsweise im Jahr 2018 für die Produktweiterentwicklung mit Wandeldarlehen 2.5 Millionen zusammengetragen. Bei Forgivable Loans werden die Kredite dann erlassen, wenn ein bestimmtes Ziel oder ein bestimmter Meilenstein erreicht wurde. Mit dieser Form haben die Geldgeber*innen eine bestimmte Sicherheit, dass ihre Investition zum Erreichen bestimmter gesellschaftlicher Ziele (der Mission der Initiative) verwendet wird. Bei Umsatzbeteiligungsmodellen verpflichtet sich die Nachhaltigkeitsinitiative einen Teil des Umsatzes im Gegenzug für ein Darlehen zu entrichten. Umsatzbeteiligungsmodelle haben den Vorteil, dass die Kostenstruktur variabel bleiben kann und ein Teil des Risikos auf die Geldgebenden übertragen werden kann. Besonders interessant sind Umsatzbeteiligungsmodelle, bei denen die Umsatzbeteiligung gedeckelt ist. D.h. der Investierende ist nur bis zu einem im Voraus bestimmten Maximalbetrag am Umsatz beteiligt. 
+
+Gleichzeitig bedingt auch die Aufnahme von Hybridkapital einen absehbaren ökonomischen Erfolg, welcher mit Flexibilität bezüglich der Bedürfnisse und Selbstverständnis der Mitglieder und ihren Erwartungen an die Mission der Initiative vereinbar sein muss (Dana et al., 2019; Penha-Lopes & Henfrey, 2019). 
+
+### Weitere innovative Finanzierungsmodelle 
+
+Nachhaltigkeitsinitiativen könne durch ihre soziale Ausrichtung auch Strategien verfolgen, welche profitorientierte Unternehmen untersagt sind. So können sie beispielsweise Preisdiskriminierungsstrategien durchsetzen, da sie über die nötige Legitimität und das Vertrauen der Kund*innen und Mitglieder verfügen (Spiess-Knafl & Langer, 2019). Mitgliederbasierte Unverpackt Läden wie beispielsweise die Frischlinge in Zürich oder Palette Unverpackt Einkaufen in Bern finanziert eine Kundengruppe den Konsum einer anderen Kundengruppe mit, indem die Mitgliederbeiträge freiwillig nach einkommensstark, normalverdienend und einkommensschwach ausgesucht werden können. 
+
+## Leistungsentgelte für ausgewählte Angebote und Dienstleistungen 
+Ökologische und gesellschaftliche Leistungen müssen nicht in jedem Fall gratis sein. Für ausgewählte Dienstleistungen oder Produkte können und sollen durchaus Gegenleistungen verlangt werden, sei dies finanzieller Art oder im Sinne von Tauschgeschäften. Viele Initiativen wie zum Beispiel Vertragslandwirtschaftliche Initiativen, Leihbars etc. verlangen (berechtigterweise) Entgelte für ihre Leistungen, welche idealerweise kostendeckend sind. Welche Leistungen entgeltlich sind, kann sehr vielfältig sein, zum Beispiel können Produkte und Dienstleistungen (z.B. Weiterbildungskurse) zahlungspflichtig sein. Es können Veranstaltungen organisiert werden, welche kostenpflichtig sind, für Infrastruktur kann Miete verlangt werden, etc. (Penha-Lopes & Henfrey, 2019). Für welche Leistungen welche Entgelte verlangt, und vom Zielpublikum auch akzeptiert werden, hängt stark vom Profil und Tätigkeitszweck (der Mission und der Alleinstellungsmerkmale), wie auch entsprechender Kommunikation (social marketing) der Initiative ab (Sonntag-Padilla et al., 2012). Leistungen können damit kostendeckend sein, oder sogar zur Quersubvention anderer Angebote, oder bestimmter Zielgruppen eingesetzt werden (Sonntag-Padilla et al., 2012). Leistungsentgelte für einzelne Angebote werden von Nutzenden und Mitgliedern also durchaus akzeptiert. Höhere Beiträge (zum Beispiel für Mitgliedschaften oder Sachleistungen) können aber dazu führen, dass die Nutzenden genauer wissen wollen, wie die Beiträge zu Stande kommen, d.h. entsprechende Rechenschaftspflicht einfordern (Penha-Lopes & Henfrey, 2019). Bemühungen, entsprechende Berechnungen transparent offen zu legen, und das Verständnis für das Zustandekommen zu fördern sind zentral. Dies kann zum Beispiel durch eine regelmässige und transparente Berichterstattung erfolgen, welche den Wert und verantwortlichen Umgang mit den finanziellen Mitteln aufzeigt (Sonntag-Padilla, 2012) mehr dazu im Kapitel «Gouvernanz). 
+
+::: {.defbox data-latex=""}
+Portrait Zeittausch von E-Wende Genossenschaft 
+
+Beschrieb Initiative 
+
+Beschrieb Zeittauschmodell 
+
+Vor dem Hintergrund hoher Anschaffungskosten von PV-Anlagen hat die e-wende-Genossenschaft ein Zeittauschmodell etabliert, welches eine win-win-Situation kreiert, die sich einerseits als innovatives und funktionierendes Finanzierungsmodell der Genossenschaft niederschlägt und gleichzeitig gegenüber schlüsselfertigen PV-Anlagen zu deutlich reduzierten Anschaffungskosten der Bauherren (ebenfalls Genossenschaftsmitglieder) führt. Der Bauherr verpflichtet sich die Stunden, die andere für die Installation seiner Anlage aufgebracht haben zu kompensieren. Haben beispielsweise 4 Leute 15 h gearbeitet, muss der Bauherr in künftigen Projekten 60h mitarbeiten. Der Bauherr bezahlt also nur den Planer und das Material inkl. MWst. Beim Material entsteht eine gewisse Marge (5%), welche die Genossenschaft benötigt, um sich zu finanzieren. (momentan 3 bezahlte Stellen, 2 Geschäftsführer (40%), Bauleiter (70%), Suva Unfallversicherung). Querfinanziert wird die Genossenschaft zusätzlich durch Bauherren, welche eine schlüsselfertige Anlage möchten oder die zu leistenden Arbeitsstunden innerhalb 2 Jahre nicht abarbeiten möchten und dann ebenfalls finanziell begleichen. Bauleiterstunden werden entweder vom Bauherr bezahlt oder mit dem Faktor 1,5 abgearbeitet.  
+
+Herausforderungen? 
+
+Übertragung der Idee: 
+
+:::
+
+## Balance zwischen bezahlter Arbeit und Freiwilligeneinsätzen 
+
+
+## Aufwände teilen – Nutzungskooperationen 
+
+
+::: {.defbox data-latex=""}
+Portrait Neonomia 
+
+Beschrieb Initiative 
+
+Die Westschweizer Genossenschaft Neonomia ­ermöglicht selbständigen Erwerbstätigen, ihr eigenes Unternehmen zu führen und gleich­zeitig von den Sozialleistungen zu profitieren, die normalerweise Angestellten vorbehalten sind. In der berufsübergreifenden Ge­nossenschaft sind Menschen aus unterschiedlichen Branchen vertreten, ausgenommen sind Hotellerie und Gastronomie, der Bausektor und das Gesundheitswesen. Wer an einem Beitritt interessiert ist, muss eine selbständige Erwerbstätigkeit nachweisen und die Charta von Neonomia für eine sozialere, solidarischere und nachhaltigere Wirtschaft unterzeichnen. Können Kriterien der Charta eingehalten werden, unterschreiben die Unternehmerinnen und Unternehmer mit Neonomia einen Arbeitsvertrag und rechnen ihre Leistungen über die Genossenschaft ab und erhalten nach Abzug der Sozial- und Versicherungsabgaben ihren Lohn.  
+
+Herausforderung 
+
+ 
+
+Lösungsansatz 
+
+Ein Teil des Umsatzes – zwischen sieben und zehn Prozent – wird als Beitrag an die Betriebskosten einbehalten. Darunter fallen die Buchhaltung, Verwaltungsaufgaben, Beratung oder die Miete des Co-Working-Space. Die angestellten Unternehmerinnen und Unternehmer müssen also lediglich Rechnungen verschicken, um alles andere kümmert sich die Genossenschaft. 
+
+ 
+
+Wenn man sich lediglich auf eine Aktivität (Branche/Konsumbereich) konzentriert, besteht auch ein gewisses Risiko. Im Fall einer Krise – wie aktuell mit Covid – ist Neonomia viel resistenter dank der Vielfalt an Berufsgruppen die Mitglieder sind. Wenn wir bspw. eine Kooperative gründen, die sich nur aus Landwirt:innen zusammensetzt, besteht das Risiko, dass die Kooperative nach einem extremen Wetterereignis zugrunde geht, da sie keine Einkünfte mehr hat. Jedoch könnte man im Fall der Landwirtschaftskooperative auch Unternehmer:innen aus der Weiterverarbeitenden Industrie miteinbeziehen, wodurch die Kooperative wieder Krisenresistenter wird. Sektoren, bei welchen eine Übertragung dieses Modells sehr interessant sein könnte, sind Fahrradkuriere bzw. Kuriere wie Uber, Deliveroo etc. bei denen sehr prekäre Arbeitsbedingungen mit äusserst unklarem Status vorliegen. Für die Fahrer:innen würde sich ein Status Entrepreneur salarié sehr lohnen. Weiter gibt es viele Arbeitnehmer*innen, die aufgrund ihres Alters entlassen werden, weil sie zu alt sind. Wir ermuntern diese, sich bei uns anstellen zu lassen, da sie bei einer Verselbständigung sehr prekäre Bedingungen haben und oftmals von nur einem Klient abhängen. Die 50 bis 60-jährigen werden oft gefeuert, weil sie teuer sind. Dennoch haben diese Menschen viele Fachkompetenzen und können in einem Status Entrepreneur salarié gut aufgefangen werden 
+
+Übertragung der Idee: 
+
+Was wir tun könnten, wäre eine weitere Struktur wie Neonomia zu erstellen, bspw. für Berufe aus der Baubranche. Wir werden bspw. von vielen Architekt:innen angefragt. Wir ermuntern diese, eine eigene Struktur aufzubauen. Neonomia ist vor allem sehr kompatibel mit allen Berufen die in die Consulting-Branche fallen. ZB. Redakteur:innen, Buchalter:innen, Illustrator:innen, Coaches, Ausbildner:in, Übersetzer:in. Heute zeichnen wir uns durch die vielseitigen Beruf unserer Angestellten aus.  
+
+:::
+
+## Innovative Förderprogramme
+Das Einwerben von Fördergeldern, sei es bei der öffentlichen Hand oder privaten Fördergebern (d.h. der soziale Kapitalmarkt) ist und bleibt eine zentrale Einnahmequelle für viele Initiativen. Das Schreiben entsprechender Anträge ist aufwändig, es bedingt entsprechende zeitliche Ressourcen, aber auch das Wissen über die Landschaft der Fördermöglichkeiten, sowie die Fähigkeit, einen qualitativ hochstehenden Antrag zu verfassen (Dinnie & Holstead, 2018). Der Aufwand (d.h. die Transaktionskosten) für die Beschaffung entsprechender Gelder sind hoch (Achleitner et al., 2012; Spiess-Knafl & Langer, 2019). Wenn entsprechende Finanzierungsquellen erschlossen werden wollen, ist eine professionelle Gouvernanzform, sowie hohe Transparenz bezüglich der Mittelverwendung (zum Beispiel im Rahmen des regelmässigen Reportings zentral (CGA, 2008; Sonntag-Padilla et al., 2012). Eine hohe Wichtigkeit haben aber auch Faktoren wie der Aussenauftritt (Materialen, Webauftritt) und der Leistungsausweis, welche gepflegt werden müssen (Sonntag-Padilla et al., 2012). Ein klares, konsistentes Marketing und Branding helfen dabei, die soziale Mission einer gemeinnützigen Organisation gegenüber Geldgebern und der Gemeinschaft, in der sie ansässig ist, zu kommunizieren. 
+
+### Staatliche Förderung: 
+Für Initiativen mit mehrheitlich sozialer Ausrichtung (Sozialunternehmen) ist es inzwischen nicht mehr ungewöhnlich, eine Grundfinanzierung im Sinne von Leistungsaufträgen durch die öffentliche Hand zu erhalten. Dies wird dann möglich, wenn eine gesetzliche Grundlage besteht, welche entsprechende Leistungsaufträge und Förderprogramme ermöglichen (Spiess-Knafl & Langer, 2019). Hier ein «klassisches» Beispiel einfügen. Für den Tätigkeitsbereich von Nachhaltigkeitsinitiativen sind entsprechende gesetzliche Grundlagen und entsprechende Leistungsaufträge meist nicht vorhanden und müssten erst explizit von staatlicher Seite geschaffen werden (Moser, Schmidt, Stephan, et al., 2018) Ev. etwas zum Stand der Stadt Zürich einfügen. Hat St.Gallen oder Wintherthur inzwischen etwas ähnliches? Hat die Stadt Bern ein Beispiel, z.B.. Eine Möglichkeit besteht jedoch darin, dass sich Initiativen für in staatlichen Förderprogrammen ausgeschriebene Leistungen bewerben, oder an entsprechenden Stellen selbstinitiativ eigene Projektgesuche einreichen. Hier Beispiel von VESE vorstellen. 
+
+::: {.defbox data-latex=""}
+Portrait VESE  
+
+Beschrieb Initiative 
+
+Beschrieb Förderprogramm Lancierung und Umsetzung 
+
+Herausforderungen? 
+
+Übertragung der Idee: 
+
+:::
+
