@@ -1,0 +1,14 @@
+---
+title: "Literaturverzeichnis"
+author: "Christoph Bader"
+date: "`r Sys.Date()`"
+bibliography: book.bib
+biblio-style: apalike
+link-citations: yes
+description: "Buch Nachhaltigkeitsinitiativen"
+output: bookdown::gitbook
+
+---
+`r if (knitr::is_html_output()) '
+# References {-}
+'`

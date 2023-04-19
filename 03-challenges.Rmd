@@ -1,0 +1,119 @@
+---
+title: "Herausforderungen des Entstehens und Bestehens von Nachhaltigkeitsinitiativen"
+author: "Christoph Bader"
+date: "`r Sys.Date()`"
+bibliography: book.bib
+biblio-style: apalike
+link-citations: yes
+description: "Buch Nachhaltigkeitsinitiativen"
+output: bookdown::gitbook
+
+---
+# Verständnisse und Konzepte Nachhaltiger Entwicklung {#verständnisse_konzepte}
+
+Woher kommen das Konzept, das Leitbild und die Handlungsprinzipien der Nachhaltigkeit? Wie ist das Konzept entstanden, wie hat es sich entwickelt – und warum? Die folgenden Ausführungen geben einen Überblick über die Geschichte der Nachhaltigkeit, politische Hintergründe, wichtige Konferenzen und Dokumente. Kurzum, wir zeigen, was Nachhaltigkeit zu dem gemacht hat, was es heute ist. Es geht darum, den Wald hinter den Bäumen zu sehen. Denn nur wer die Vergangenheit kennt, kann die Zukunft einschätzen.
+
+Ob in der Wissenschaft, Politik, Wirtschaft oder den Medien – Nachhaltigkeit ist das Schlagwort der letzten Jahre. Der Begriff ist zunächst positiv besetzt und wird mit Langfristigkeit und Dauerhaftigkeit assoziiert. Heutzutage erscheint vieles als nachhaltig: der Kaffee, die Firmenphilosophie, selbst die Thunfischpizza. Und diesen Anspruch erhebt ausgerechnet eine Konsumgesellschaft, die rücksichtslos im Überfluss badet. Gleich am Morgen geht es los: Das Shampoo entfernt unsere Schuppen „nachhaltig“. Dann fahren wir zur Arbeit in die Firma, die für eine „nachhaltige Unternehmensphilosophie“ steht, am Mittagstisch philosophieren wir über nachhaltige Geldanlagen. Wieder zu Hause, schieben wir eine Thunfischpizza in den Ofen – laut Verpackung – aus „nachhaltiger Erzeugung“, versteht sich.
+
+Heute wird Nachhaltigkeit in Zusammenhang mit Energie, Mobilität, Gebäudesanierung, Ernährung, Bevölkerungsentwicklung, betrieblichem Umweltmanagement und Klimaschutz verwendet, ebenso wie in Kunst, Kultur, Design und Werbung.
+
+```{r sustainable, fig.align='center', fig.cap="Nachhaltigkeit als buzzword", echo=FALSE, out.width="100%"}
+knitr::include_graphics(here::here("images", "sustainable.png"))
+```
+
+Wenn die Verwendung des Wortes «nachhaltig» weiterhin im selben Tempo wächst, werden im Jahr 2109 alle Sätze nur noch aus dem Wort nachhaltig bestehen (\@ref(fig:sustainable))– klar diese Rechnung ist nonsense und doch hat es etwas: Immer mehr Menschen sprechen von Nachhaltigkeit, die Wissenschaft liefert seit nun mehr 50 Jahren, seit dem Club of Rome 1972, Erkenntnisse, dass unsere Art zu produzieren und konsumieren nicht zukunftsfähig ist, nicht für die Umwelt, aber auch nicht für uns Menschen als Gesellschaft – doch dieses Wissen alleine führt eben nicht automatisch zur Veränderung – wie wir heute mehr den je feststellen müssen:  
+
+Um zurück auf das Beispiel mit dem Thunfisch zu kommen – heute wird selbst ein Fisch der vom Aussterben bedroht ist, nachhaltig gefangen. 
+
+So müssen wir uns erst einmal darüber verständigen, was sich hinter dem Begriff «Nachhaltigkeit» oder «nachhaltige Entwicklung» konkret verbirgt. Es wird auch vom Leitbild der Nachhaltigkeit oder dem Konzept einer nachhaltigen Entwicklung gesprochen. 
+
+::: {.defbox data-latex=""}
+Die wichtigsten Vorläufer des Leitbilds einer Nachhaltigen Entwicklung werden wir uns im Detail anschauen:
+
+- Beginn der Diskussion um Nachhaltigkeit: Carlowitz` Waldbewirtschaftungsprinzip 1713 
+- Zusammenprall von Ökonomie und Ökologie \@ref(carlowitz)
+- Erste und zweite UN-Dekade für Entwicklung 
+- Grenzen des Wachstums 1972 
+- Brundtland-Bericht 1987 
+- Rio Gipfel 1992 
+- Agenda 21 
+- Milleniumsziele der UN (MDG) 
+- Agenda 2030 mit den Nachhaltigkeitszielen (SDG) 
+:::
+
+## Beginn der Diskussion um Nachhaltigkeit {#carlowitz}
+Der sächsische Oberberghauptmann Hans Carl von Carlowitz veröffentlichte im Jahr 1713 das Buch "Sylvicultura oeconomica, oder hauswirthliche Nachricht und Naturmäßige Anweisung zur wilden Baum-Zucht". In diesem Buch zeigt er die Notwendigkeit und Möglichkeit einer "nachhaltenden Forstwirtschaft" auf. Anna Amalia, die Mutter von Herzog Carl August, ist maßgeblich dafür verantwortlich, dass wir heute den Anspruch an Nachhaltigkeit haben. Sie initiierte die erste Forstreform der Welt, um Holz dauerhaft und mit stetigem Ertrag zur Verfügung zu stellen. Damals hatte Europa eine unkontrollierte Gier nach der "Materia Prima", sei es für den Schiff- oder Hausbau, zum Kochen oder Heizen. Dadurch drohte die Ressource erschöpft zu werden und nur das kurzfristige Überleben zu sichern, aber nicht das langfristige. 
+
+Im 18. Jahrhundert beschäftigten sich Gelehrte nicht nur in Deutschland, sondern in ganz Europa mit der Endlichkeit natürlicher Ressourcen. Im Gegensatz zu von Carlowitz wurde dabei jedoch nicht von Nachhaltigkeit gesprochen. Ein wichtiger Aspekt war die Versorgung der wachsenden Bevölkerung mit Lebensmitteln. Vor der Industrialisierung war der Produktionsfaktor Natur der entscheidende Faktor für das Wirtschaftswachstum, wie beispielsweise die Anzahl der Bergwerke oder gebauten Schiffe, oder der Boden für die Produktion von Nahrungsmitteln. Thomas Robert Malthus, ein britischer Ökonom, warnte aufgrund des seit der Industriellen Revolution starken Bevölkerungswachstums, dass die Produktion von Lebensmitteln künftig nicht mit der Bevölkerungszunahme Schritt halten könne. Malthus These besagte, dass sich die Bevölkerung mit geometrischen Wachstumsraten vermehren würde, während die Produktion von Lebensmitteln nur linear wachsen würde. Obwohl Malthus These nicht eintritt, gelten seine Arbeiten häufig als erstmalige systematische Abhandlung über die Wachstumsgrenzen in einer endlichen Welt. 
+
+Malthus Überlegungen gerieten lange Zeit in Vergessenheit, da durch die industrielle Revolution und die Ausbreitung der kapitalistischen Produktionsweise ein unbegrenztes Wachstum möglich schien und natürliche Grenzen bis Mitte des 20. Jahrhunderts kaum mehr thematisiert wurden. Jedoch fand ein neo-malthusianisches Verständnis in Berichten an den 1968 gegründeten Club of Rome, der Debatte um Planetare Grenzen oder auch in Wachstumskritischen Debatten Verbreitung. Obwohl sich der Malthusianismus in der Regel auf äußere, physische Grenzen des Wachstums bezieht, geht es Kallis vor allem darum, persönliche Mäßigung und freiwillige Zurückhaltung als eine weise Lebensauffassung darzustellen, die tiefe Wurzeln in der Romantik und der antiken griechischen Philosophie hat. Kallis plädiert für eine innere Begrenzung unserer Wünsche, um uns von der in der Wirtschaft vorherrschenden Annahme der Knappheit und der damit einhergehenden Besessenheit vom Wachstum zu befreien. Die Realität äußerer Grenzen darf nicht geleugnet, jedoch nicht als Hauptargument der Umweltschützer gegen grenzenloses Wachstum verdrängt werden. Kallis fragt deshalb, ob es sinnvoll ist, den Klimawandel als ein Problem externer Grenzen, der Knappheit oder einer begrenzten Atmosphäre, die nicht mehr von unseren Emissionen aufnehmen kann, darzustellen. 
+
+Die Logik, die auf Malthus zurückgeht, ist, mehr zu produzieren, um einer Welt der Grenzen zu begegnen. Solange wir so denken, besteht die natürliche Reaktion darin, zu überlegen, wie wir diese Grenzen überschreiten können, wie wir das Klima so gestalten können, dass es mehr von uns und unseren Wünschen aufnehmen kann.  
+
+## Zusammenprall von Ökonomie und Ökologie
+Ihrem Ursprung nach ist Nachhaltigkeit ein ressourcenökonomisches Prinzip, das das ökonomische Ziel der maximalen dauerhaften Nutzung des Waldes mit den ökologischen Bedingungen des Nachwachsens kombinierte. Im 19. Jahrhundert entwickelte der deutsche Forstwissenschaftler und Ökonom Max von Cramer-Klett die Reinertragslehre, die besagt, dass der Ertrag aus einem Wald durch den Verkauf von Holz maximiert werden sollte, indem man nur die ältesten und größten Bäume fällt und somit den Wald langfristig und nachhaltig nutzt. Die Theorie hatte großen Einfluss auf die Forstwirtschaft in Deutschland und Europa. Die Reinertragslehre beendete den gemäßigten Holzeinschlag abrupt und die neue Lehre war allein auf die höchstmögliche Verzinsung des investierten Kapitals im Wald ausgerichtet. Der Fokus lag plötzlich auf dem höchstmöglichen direkten Geldertrag anstelle eines stetigen hohen Holzertrags. Statt der Produktivität der Natur war nun der freie Markt und das Gesetz von Angebot und Nachfrage ausschlaggebend. Das neue Credo in Wirtschaft und Gesellschaft war die Gewinnmaximierung und nicht mehr die Naturgesetzmäßigkeit. Die Zyklen der Natur traten zurück und wurden durch die Dynamik des Kapitalismus ersetzt, wobei der Tauschwert vor dem Gebrauchswert stand. Dadurch wurde das Handlungsprinzip Nachhaltigkeit entwertet und es dauerte über hundert Jahre bis in die 1960er und 70er Jahre hinein, bis die wissenschaftlichen Disziplinen Ökologie und Nachhaltigkeit wieder Beachtung fanden. 
+
+## Grenzen des Wachstums
+> "Wenn die gegenwärtige Zunahme der Weltbevölkerung, der Industrialisierung, der Umweltverschmutzung, der Nahrungsmittelproduktion und der Ausbeutung von natürlichen Rohstoffen unverändert anhält, werden die absoluten Wachstumsgrenzen auf der Erde im Laufe der nächsten hundert Jahre erreicht."
+>
+> --- Meadows et al. (1972), S. 17
+
+```{r clubofrome, fig.align='center', fig.cap="Computersimulation - Club of Rome", echo=FALSE, out.width="100%"}
+knitr::include_graphics(here::here("images", "clubofrome.png"))
+```
+
+Mit der Gründung und Veröffentlichung des Club of Rome und dem Report “Limits to growth” (1972) hat sich die Bedeutung des Begriffs Nachhaltigkeit erheblich erweitert. Wissenschaftler*innen fordern einen globalen Gleichgewichtszustand (Homöostase), der nur durch weltweite Maßnahmen erreicht werden kann. Sie integrieren gezielt ökonomische, ökologische und soziale Aspekte der Nachhaltigkeit und nutzen das Modell der Dynamik komplexer Systeme (Systems Dynamics) für eine homogene Welt. Dabei werden die Wechselwirkungen zwischen Bevölkerungsdichte, Nahrungsmittelressourcen, Energie, Material, Kapital und Umweltzerstörung sowie Landnutzung berücksichtigt. Durch Computersimulation wurden verschiedene Szenarien entwickelt, wobei die Ergebnisse stets ähnlich waren: ein katastrophaler Rückgang der Weltbevölkerung und des Lebensstandards innerhalb von 50 bis 100 Jahren, wenn die aktuellen Trends fortgesetzt werden. Das Problem der ressourcen- und emissionsintensiven Industriegesellschaft besteht darin, dass das Wachstum nicht linear, sondern exponentiell verläuft. Langfristig führt diese Art des Wachstums zum Tod. Meadows argumentiert, dass nur eine Kurskorrektur einen ökologischen Kollaps verhindern kann. 
+
+Der "Limits to Growth" Bericht wurde für seine Vorhersagen und Methoden stark kritisiert. Einige Kritiker:innen bemängelten, dass das Modell der Dynamik komplexer Systeme zu vereinfacht sei und wichtige Faktoren wie Technologie und Innovation nicht berücksichtigt wurden. Andere kritisierten, dass die Autor:innen die menschliche Anpassungsfähigkeit und die Möglichkeit von politischen Lösungen und Veränderungen nicht ausreichend einbezogen hätten. Einige warfen den Autor:innen auch vor, Malthusianer:innen zu sein und eine düstere und pessimistische Sichtweise auf die Zukunft zu haben. Trotz dieser Kritik hat der Bericht jedoch eine wichtige Debatte über Nachhaltigkeit und die Notwendigkeit von Umweltschutz angestoßen.  
+
+Ein Jahr nach dem Erscheinens des Bericht zu den Grenzen des Wachstums publizierte E.F. Schumacher Small is Beautiful: Economics as if people mattered.
+
+## Von der Entwicklungs- zur Nachhaltigkeitsdebatte
+Die Zunahme von Umweltbelastungen, etwa durch Luftschadstoffe oder im Bereich der Gewässerverschmutzung, trug dazu bei, dass Umweltaspekten grösseres Gewicht in Politik und Medien beigemessen wurde (u.a. Gründung Greenpeace 1971). In den 60er und 70er Jahren untersuchte bspw. Paul Crutzen den Einfluss von Stickoxiden auf die Ozonschicht - und sagte mit seinem Forschendenteam voraus, dass diese Schicht durch vom Menschen entwickelte FCKW stark reduziert werden würde. Die Verwendung von FCKW in Kühlschränken und Klimaanlagen wurde auch daraufhin verboten. Die Vereinten Nationen reagierten auf die wachsende Bedeutung der ökologischen Fragen mit der 1972 in Stockholm veranstalteten ersten grossen Umweltkonferenz. Im Nachgang zur Stockholmer Umweltkonferenz entstand das Umweltprogramm der Vereinten Nationen (UNEP). In der Folge dieser Konferenz wurden in zahlreichen Staaten eigenständige Umweltministerien geschaffen.  
+
+```{r chwaldsterben, fig.align='center', fig.cap="Schweiz: Waldsterbedebatte, Seenverunreinigung etc. oder auch Tschernobyl (1986)", echo=FALSE, out.width="100%"}
+knitr::include_graphics(here::here("images", "CHwaldsterben.png"))
+```
+
+Parallel zu den aufkommenden Umweltproblemen in den 1970er Jahren und 1980er Jahren gab es auch die ersten «Entwicklungskrisen» nach dem Zweiten Weltkrieg. Damals wurde noch unterentwickelten Ländern gesprochen. Man ging ja eigentlich davon aus, nach dem Zweiten Weltkrieg und als der Marshallplan zur Wiederaufbau Europas ja recht erfolgreich war, dass solche Pläne wie der Marshallplan, ein Marshallplan für Afrika, dazu führen würde, dass die armen Länder des Südens sich relativ zügig sozioökonomisch Nachholende entwickeln könnten. Und da wurde man in den 70er, 80er Jahren enttäuscht. Man hat gesehen, dass sogar die vorbildlichen Länder wie Mexiko und Brasilien in eine Verschuldungskrise gerieten und dass diese sozioökonomische nachholende Entwicklung und Überwindung von Armut doch nicht so einfach vor sich geht. 
+
+Ab diesem Zeitpunkt war klar, dass die Entwicklungsfrage und die Umweltfrage auf zwischenstaatlicher Ebene gemeinsam gedacht werden mussten. Die Vereinten Nationen reagierten darauf und setzten im Jahr 1983 eine Sachverständigenkommission für Umwelt und Entwicklung (World Commission on Environment and Development) unter dem Vorsitz der norwegischen Ministerpräsidentin Gro Harlem Brundtland ihre Arbeit auf.
+
+## Brundland-Kommission
+Gro Harlem berief 22 Kommissionsmitglieder in die Kommission, ¾ davon stammen aus dem Globalen Süden. Hinzu kam, dass die Sowejtunion einen politischen Kurswechsel aufgrund der zunehmende wirtschaftliche Stagnation in den 1980er Jahren vornahm. Da das Wettrüsten mit den USA zu einem erheblichen Haushaltsdefizit beigetragen hatte, leitete der neue sowjetische Generalsekretär Michail Gorbatschow eine bedeutende Wende ein. Spätestens nach dieser Wende, konnte die Entstehung einer neuen Weltsicht, einem neuen globalen Bewusstsein beobachtet werden. So wurde die Kommission damit betraut einen Perspektivbericht zu langfristig tragfähiger, umweltschonender Entwicklung im Weltmassstab bis zum Jahr 2000 und darüber hinaus zu erarbeiten. Der offizielle Titel des 1987 vorgelegten Berichtes war „Our Common Future“, geläufiger aber ist die Benennung nach der Vorsitzenden, Gro Harlem Brundtland. 
+
+Der Hauptbefund des Berichts war, dass globale Umweltprobleme hauptsächlich auf nicht-nachhaltige Konsum- und Produktionsmuster im Norden und großer Armut im Süden zurückzuführen sind. Der Raubbau an der Natur und der Abbau natürlicher Ressourcen führen zu steigender Ungleichheit (Einkommen und Vermögen), zunehmender absoluter Armut und einer Bedrohung für Frieden und Sicherheit. Vor diesem Hintergrund ist es wichtig, eine Definition von Nachhaltigkeit zu entwickeln, die gerechtigkeitsorientiert ist. 
+
+::: {.defbox data-latex=""}
+„Nachhaltige Entwicklung ist eine Entwicklung, welche die Bedürfnisse gegenwärtiger Generationen befriedigt, ohne zu riskieren, dass künftige Generationen ihre Bedürfnisse nicht befriedigen können.“ (S. 46)
+:::
+
+Mit dieser Definition brachte die Kommission explizit eine ethische Perspektive in die Nachhaltigkeitsdiskussion ein und stellte das Prinzip der Verantwortung in den Mittelpunkt, sowohl für heute als auch für zukünftig lebende Menschen. Menschliche Bedürfnisse sowohl der gegenwärtig lebenden Menschen als auch der künftigen Generationen sind in dieser Wendung zentral. Damit nahm die Brundtland-Kommission eine klar anthropozentrische Position ein. Die Brundtland-Kommission identifizierte drei wesentliche Grundprinzipien bei der Analyse von Problemen und Empfehlungen zur Handlung: die globale Perspektive, die Verbindung von Umwelt- und Entwicklungsaspekten und die Umsetzung von Gerechtigkeit. In Bezug auf Gerechtigkeit wurden zwei Perspektiven unterschieden: 
+1. Die intergenerationelle Perspektive, die als Verantwortung für zukünftige Generationen verstanden wird. 
+
+2. Die intragenerationelle Perspektive, die sich auf die Verantwortung für die gegenwärtig lebenden Menschen bezieht, insbesondere für die armen Staaten und als Ausgleich innerhalb der Staaten.
+
+::: {.defbox data-latex=""}
+Unterschied Nachhaltige Entwicklung und Nachhaltigkeit:
+Nachhaltigkeit verweist auf einen Zustand, Statik und Beständigkeit; nachhaltige Entwicklung impliziert Bewegung, Dynamik, das Prozesshafte sowie das Werdende und Entstehende.
+:::
+
+## Von Rio 1992 bis heute
+Hatte Brundlandt Bericht /Our Common Future auf dringenden Handlungsbedarf in internationalem Rahmen hingewiesen, ging es nun darum, Forderungen und Vorschläge in verbindliche Verträge und Konventionen zu überführen. Als Instrument wählte die UNO hierfür eine Konferenz – exakt 20 Jahre nach der ersten weltweiten Umweltkonferenz 1972 in Stockholm. Bis damals grösste internationale Konferenz mit Delegierten aus über 170 Nationen.
+
+::: {.factbox data-latex=""}
+Die fünf verabschiedeten Dokumente der Rio-Konferenz sind: 
+
+• *Walddeklaration*, die auf die okologische Bewirtschaftung und den Schutz der 
+Walder der Erde zielt;  
+
+• *Klimaschutz-Konvention*, in der sich die Staaten verpflichten, die Emissionen
+von Treibhausgasen weltweit auf den Stand von 1990 zu reduzieren; 
+
+• *Biodiversitätskonvention*, die Schritte gegen die Abnahme der biologischen 
+Vielfalt volkerrechtlich bindend festlegt; 
+
+• *Deklaration von Rio über Umwelt und Entwicklung* und 
+
+• *Agenda 21*. Sie ist das bekannteste der fünf Abkommen. Ihr zufolge ist es an den Regierungen der einzelnen Staaten selbst, für die Umsetzung des Nachhaltigkeitsleitbildes auf nationaler Ebene zu sorgen. 
+:::

@@ -1,0 +1,33 @@
+---
+title: "Einleitung"
+author: "Christoph Bader"
+date: "`r Sys.Date()`"
+bibliography: book.bib
+biblio-style: apalike
+link-citations: yes
+description: "Buch Nachhaltigkeitsinitiativen"
+output: bookdown::gitbook
+
+
+---
+
+
+# Einleitung {#einleitung}
+
+```{r wrappedglobe, fig.align='center', fig.cap="Wrapped globe: Christo 2020 (links) und Christo 1989 (rechts)", echo=FALSE, out.width="100%"}
+knitr::include_graphics(here::here("images", "wrappedglobe.png"))
+```
+
+In einer Zeit, in der die Herausforderungen für eine Nachhaltige Entwicklung immer drängender werden, bietet das Kunstwerk “Wrapped Globe” von Christo und seiner Jeanne-Claude eine eindrucksvolle symbolische Darstellung der Verantwortung der Menschheit gegenüber unserer Erde und ihre Ressourcen. Das Kunstwerk besteht aus einer transparenten Plastikhülle und einem filigranen Netz, das den Globus umhüllt und illustriert, dass sich die Welt gegenwärtig einer Vielfackrise konfrontiert sieht: multidimensionaler ökologischer Zusammenbruch, steigende Ungleichheit, übermässige Verschuldung, nicht zuletzt die Covid-19-Pandemie und, neben anderen Kriegsflüchtlingsströmen, der russische Angriffskrieg mit seinen Auswirkungen. Der Begriff Vielfachkrise verdeutlicht nach Adam Tooze, wie die globalen Krisen miteinander verbunden sind, sich gegenseitig verschlingen und verschärfen (Zitat). Die Ursachen dieser miteinander verbundenen Krisen sind unter anderem vergangene und fortgesetzte Ungerechtigkeiten zwischen und innerhalb von Ländern, ein Teufelskreis der immer stärkeren Konzentration von wirtschaftlicher und politischer Macht sowie eine Fixierung und strukturelle Abhängigkeit vom BIP-Wachstum (Hickel et al. 2022, Oxfam & EEB 2021). Dennoch streben Gesellschaft und Wirtschaft nach wie vor nach BIP-Wachstum, um Arbeitsplätze zu erhalten und zu schaffen, die sozialen Sicherungssysteme zu finanzieren, Steuereinnahmen zu sichern und wachstumsabhängige Unternehmen und Branchen zu befriedigen. Diese Erwartungen sind zunehmend unrealistisch, und es gibt keine empirischen Belege dafür, dass eine Entkopplung von Wirtschaftswachstum und Ressourcenverbrauch auch nur annähernd das Ausmass erreicht, das erforderlich wäre, um den multidimensionalen ökologischen Zusammenbruch zu stoppen (Parrique et al., 2019; Hickel und Kallis, 2020; Wiedmann et al., 2020). 
+
+## Leere und volle Welt
+
+Die transparente Hülle und das Netz, die den Globus umgeben, repräsentieren also die Vernetzung und Abhängigkeit der verschiedenen Elemente der Erde und verdeutlichen die Notwendigkeit der Pflege und Erhaltung dieser Beziehungen. In diesem Zusammenhang gewinnt das Konzept der leeren und vollen Welt von Herman Daly an Bedeutung (cite). Die leere Welt beschreibt eine Situation, in der menschliche Aktivitäten und Ressourcennutzung nur einen geringen Einfluss auf die Umwelt haben. In dieser Welt sind die natürlichen Systeme noch intakt und unberührt, und die Ressourcen sind ausreichend, um die Bedürfnisse der Menschen zu erfüllen. Im Gegensatz dazu steht die volle Welt, in der menschliche Aktivitäten und Ressourcennutzung das Ökosystem überlasten und die Umwelt belasten. Spätestens seit dem 2. Weltkrieg sind wir auf einem industriegesellschaftlichen und wachstumswirtschaftlichen Pfad, so dass wir heute in einer «vollen» Welt leben und die natürlichen Ressourcen knapp sowie das Gleichgewicht der Ökosystem gefährdet sind.  
+
+Um diese unheilvolle Entwicklung umzukehren, gibt es keinen Masterplan. Dazu müssen wir Ursachen der Krankheitsymptome wie Biodiverstiätsverlust oder Klimaerwärmung analysieren, sie miteinander verknüpfen und ihre Wechselwirkungen verstehen lernen. So werden wir uns mit aktuellen Problemen und Herausforderungen befassen, wie Klimawandel, Umweltverschmutzung, soziale Ungleichheit und wirtschaftliche Disparitäten, um zu verstehen, wie sie sowohl auf lokaler als auch auf globaler Ebene angegangen werden können. 
+
+Unser Ziel in diesem Lehrbuch ist es, die Leser dazu zu ermutigen, kritisch über die Rolle von Individuen, Gemeinschaften, Unternehmen und Regierungen im Kontext der nachhaltigen Entwicklung nachzudenken. Darüber hinaus wollen wir, insbesondere in den Masterstudienprogrammen, Zukunftsbilder entwickeln, die Lebensqualität in einer nachhaltigen Moderne vorstellbar machen und mit den Entwürfen einer anderen Mobilität, einer anderen Ernährungskultur, eines anderen Bauens und Wohnens die Veränderung der Gegenwart attraktiv und nicht abschreckend erscheinen lassen. Die Einbindung von Stakeholdern und die Förderung der Zusammenarbeit zwischen verschiedenen Sektoren und Disziplinen sind entscheidend, um Fortschritte in Richtung Nachhaltigkeit zu erzielen. Im Laufe dieses Lehrbuchs werden wir auch die Bedeutung von Bildung, Kommunikation und Partizipation in der Gestaltung einer nachhaltigeren Zukunft hervorheben. 
+
+Mit dem Wrapped Globe im Hinterkopf und dem Verständnis der leeren und vollen Welt von Herman Daly als Grundlage, werden wir uns auf eine Reise durch die vielfältigen Aspekte der nachhaltigen Entwicklung begeben. Wir hoffen, dass diese Reise sowohl informativ als auch inspirierend sein wird und dazu beiträgt, ein tieferes Verständnis für die Dringlichkeit und die Möglichkeiten der nachhaltigen Entwicklung zu schaffen. 
+
+Schliesslich hoffen wir, dass dieses Lehrbuch die Leser dazu inspiriert, über ihre eigene Rolle und Verantwortung im Kontext der Nachhaltigkeit nachzudenken und dazu beizutragen, dass die Erde auch für zukünftige Generationen ein lebenswerter Ort bleibt. Denn nur gemeinsam können wir den Wandel bewirken, der notwendig ist, um eine nachhaltige, gerechte und umweltfreundliche Welt zu schaffen. 

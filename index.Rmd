@@ -1,0 +1,30 @@
+--- 
+title: "A Minimal Book Example"
+author: "Christoph Bader"
+date: "`r Sys.Date()`"
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+documentclass: book
+bibliography: book.bib
+description: |
+  script for Bsc Minor in SD
+link-citations: yes
+site: bookdown::bookdown_site
+---
+
+# About
+
+Herzlich willkommen zum Skript zur Vorlesung _Einführung Herausforderung für eine Nachhaltige Entwicklung_. Das Skript ist als Ergänzung zur Vorlesung gedacht und soll Ihnen helfen, die Inhalte besser zu verstehen und zu vertiefen.
+
+## Gebrauch
+
+Die Vorlesung _Einführung Herausforderung für eine Nachhaltige Entwicklung_ behandelt das Thema [hier das Thema der Vorlesung einfügen]. Dabei werden wir uns mit [hier kurz die Themenbereiche der Vorlesung aufzählen] beschäftigen. Die Vorlesung ist darauf ausgelegt, Ihnen ein grundlegendes Verständnis für [hier den Zweck oder die Anwendungsbereiche des Themas einfügen] zu vermitteln.
+
+## Selbsttest
+
+Wir haben für Sie einen Selbsttest zur Grundlagenvorlesung Nachhaltige Entwicklung zusammengestellt. Diesen können Sie innerhalb der ILIAS-Umgebung der Universität Bern absolvieren:
+www.ilias.unibe.ch
+
+

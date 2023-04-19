@@ -1,0 +1,347 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\usepackage{color}
+\usepackage{framed}
+\setlength{\fboxsep}{.8em}
+
+\usepackage{tcolorbox}
+
+\newtcolorbox{defbox}{
+  colback=black!5!white,
+  colframe=black!5!white,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+
+\newtcolorbox{factbox}{
+  colback=green!5!white,
+  colframe=green!5!white,
+  coltext=black,
+  boxsep=5pt,
+  arc=4pt}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Chapter 1},
+  pdfauthor={Christoph Bader},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Chapter 1}
+\author{Christoph Bader}
+\date{2023-04-10}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\hypertarget{about}{%
+\chapter{About}\label{about}}
+
+Herzlich willkommen zum Skript zur Vorlesung \emph{Einführung Herausforderung für eine Nachhaltige Entwicklung}. Das Skript ist als Ergänzung zur Vorlesung gedacht und soll Ihnen helfen, die Inhalte besser zu verstehen und zu vertiefen.
+
+\hypertarget{gebrauch}{%
+\section{Gebrauch}\label{gebrauch}}
+
+Die Vorlesung \emph{Einführung Herausforderung für eine Nachhaltige Entwicklung} behandelt das Thema {[}hier das Thema der Vorlesung einfügen{]}. Dabei werden wir uns mit {[}hier kurz die Themenbereiche der Vorlesung aufzählen{]} beschäftigen. Die Vorlesung ist darauf ausgelegt, Ihnen ein grundlegendes Verständnis für {[}hier den Zweck oder die Anwendungsbereiche des Themas einfügen{]} zu vermitteln.
+
+\hypertarget{selbsttest}{%
+\section{Selbsttest}\label{selbsttest}}
+
+Wir haben für Sie einen Selbsttest zur Grundlagenvorlesung Nachhaltige Entwicklung zusammengestellt. Diesen können Sie innerhalb der ILIAS-Umgebung der Universität Bern absolvieren:
+www.ilias.unibe.ch
+
+\hypertarget{einleitung}{%
+\chapter{Einleitung}\label{einleitung}}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/wrappedglobe} 
+
+}
+
+\caption{Wrapped globe: Christo 2020 (links) und Christo 1989 (rechts)}\label{fig:wrappedglobe}
+\end{figure}
+
+In einer Zeit, in der die Herausforderungen für eine Nachhaltige Entwicklung immer drängender werden, bietet das Kunstwerk ``Wrapped Globe'' von Christo und seiner Jeanne-Claude eine eindrucksvolle symbolische Darstellung der Verantwortung der Menschheit gegenüber unserer Erde und ihre Ressourcen. Das Kunstwerk besteht aus einer transparenten Plastikhülle und einem filigranen Netz, das den Globus umhüllt und illustriert, dass sich die Welt gegenwärtig einer Vielfackrise konfrontiert sieht: multidimensionaler ökologischer Zusammenbruch, steigende Ungleichheit, übermässige Verschuldung, nicht zuletzt die Covid-19-Pandemie und, neben anderen Kriegsflüchtlingsströmen, der russische Angriffskrieg mit seinen Auswirkungen. Der Begriff Vielfachkrise verdeutlicht nach Adam Tooze, wie die globalen Krisen miteinander verbunden sind, sich gegenseitig verschlingen und verschärfen (Zitat). Die Ursachen dieser miteinander verbundenen Krisen sind unter anderem vergangene und fortgesetzte Ungerechtigkeiten zwischen und innerhalb von Ländern, ein Teufelskreis der immer stärkeren Konzentration von wirtschaftlicher und politischer Macht sowie eine Fixierung und strukturelle Abhängigkeit vom BIP-Wachstum (Hickel et al.~2022, Oxfam \& EEB 2021). Dennoch streben Gesellschaft und Wirtschaft nach wie vor nach BIP-Wachstum, um Arbeitsplätze zu erhalten und zu schaffen, die sozialen Sicherungssysteme zu finanzieren, Steuereinnahmen zu sichern und wachstumsabhängige Unternehmen und Branchen zu befriedigen. Diese Erwartungen sind zunehmend unrealistisch, und es gibt keine empirischen Belege dafür, dass eine Entkopplung von Wirtschaftswachstum und Ressourcenverbrauch auch nur annähernd das Ausmass erreicht, das erforderlich wäre, um den multidimensionalen ökologischen Zusammenbruch zu stoppen (Parrique et al., 2019; Hickel und Kallis, 2020; Wiedmann et al., 2020).
+
+\hypertarget{leere-und-volle-welt}{%
+\section{Leere und volle Welt}\label{leere-und-volle-welt}}
+
+Die transparente Hülle und das Netz, die den Globus umgeben, repräsentieren also die Vernetzung und Abhängigkeit der verschiedenen Elemente der Erde und verdeutlichen die Notwendigkeit der Pflege und Erhaltung dieser Beziehungen. In diesem Zusammenhang gewinnt das Konzept der leeren und vollen Welt von Herman Daly an Bedeutung (cite). Die leere Welt beschreibt eine Situation, in der menschliche Aktivitäten und Ressourcennutzung nur einen geringen Einfluss auf die Umwelt haben. In dieser Welt sind die natürlichen Systeme noch intakt und unberührt, und die Ressourcen sind ausreichend, um die Bedürfnisse der Menschen zu erfüllen. Im Gegensatz dazu steht die volle Welt, in der menschliche Aktivitäten und Ressourcennutzung das Ökosystem überlasten und die Umwelt belasten. Spätestens seit dem 2. Weltkrieg sind wir auf einem industriegesellschaftlichen und wachstumswirtschaftlichen Pfad, so dass wir heute in einer «vollen» Welt leben und die natürlichen Ressourcen knapp sowie das Gleichgewicht der Ökosystem gefährdet sind.
+
+Um diese unheilvolle Entwicklung umzukehren, gibt es keinen Masterplan. Dazu müssen wir Ursachen der Krankheitsymptome wie Biodiverstiätsverlust oder Klimaerwärmung analysieren, sie miteinander verknüpfen und ihre Wechselwirkungen verstehen lernen. So werden wir uns mit aktuellen Problemen und Herausforderungen befassen, wie Klimawandel, Umweltverschmutzung, soziale Ungleichheit und wirtschaftliche Disparitäten, um zu verstehen, wie sie sowohl auf lokaler als auch auf globaler Ebene angegangen werden können.
+
+Unser Ziel in diesem Lehrbuch ist es, die Leser dazu zu ermutigen, kritisch über die Rolle von Individuen, Gemeinschaften, Unternehmen und Regierungen im Kontext der nachhaltigen Entwicklung nachzudenken. Darüber hinaus wollen wir, insbesondere in den Masterstudienprogrammen, Zukunftsbilder entwickeln, die Lebensqualität in einer nachhaltigen Moderne vorstellbar machen und mit den Entwürfen einer anderen Mobilität, einer anderen Ernährungskultur, eines anderen Bauens und Wohnens die Veränderung der Gegenwart attraktiv und nicht abschreckend erscheinen lassen. Die Einbindung von Stakeholdern und die Förderung der Zusammenarbeit zwischen verschiedenen Sektoren und Disziplinen sind entscheidend, um Fortschritte in Richtung Nachhaltigkeit zu erzielen. Im Laufe dieses Lehrbuchs werden wir auch die Bedeutung von Bildung, Kommunikation und Partizipation in der Gestaltung einer nachhaltigeren Zukunft hervorheben.
+
+Mit dem Wrapped Globe im Hinterkopf und dem Verständnis der leeren und vollen Welt von Herman Daly als Grundlage, werden wir uns auf eine Reise durch die vielfältigen Aspekte der nachhaltigen Entwicklung begeben. Wir hoffen, dass diese Reise sowohl informativ als auch inspirierend sein wird und dazu beiträgt, ein tieferes Verständnis für die Dringlichkeit und die Möglichkeiten der nachhaltigen Entwicklung zu schaffen.
+
+Schliesslich hoffen wir, dass dieses Lehrbuch die Leser dazu inspiriert, über ihre eigene Rolle und Verantwortung im Kontext der Nachhaltigkeit nachzudenken und dazu beizutragen, dass die Erde auch für zukünftige Generationen ein lebenswerter Ort bleibt. Denn nur gemeinsam können wir den Wandel bewirken, der notwendig ist, um eine nachhaltige, gerechte und umweltfreundliche Welt zu schaffen.
+
+\hypertarget{Teil1}{%
+\chapter{Die Herausforderungen des 21. Jahrhunderts für eine nachhaltige Entwicklung erfassen und verstehen lernen}\label{Teil1}}
+
+Cross-references make it easier for your readers to find and link to elements in your book.
+
+\hypertarget{beschleunigung}{%
+\section{Die grosse Beschleunigung}\label{beschleunigung}}
+
+\hypertarget{symptome_ursachen}{%
+\section{Symptome und Ursachen}\label{symptome_ursachen}}
+
+\hypertarget{verstuxe4ndnisse_konzepte}{%
+\chapter{Verständnisse und Konzepte Nachhaltiger Entwicklung}\label{verstuxe4ndnisse_konzepte}}
+
+Woher kommen das Konzept, das Leitbild und die Handlungsprinzipien der Nachhaltigkeit? Wie ist das Konzept entstanden, wie hat es sich entwickelt -- und warum? Die folgenden Ausführungen geben einen Überblick über die Geschichte der Nachhaltigkeit, politische Hintergründe, wichtige Konferenzen und Dokumente. Kurzum, wir zeigen, was Nachhaltigkeit zu dem gemacht hat, was es heute ist. Es geht darum, den Wald hinter den Bäumen zu sehen. Denn nur wer die Vergangenheit kennt, kann die Zukunft einschätzen.
+
+Ob in der Wissenschaft, Politik, Wirtschaft oder den Medien -- Nachhaltigkeit ist das Schlagwort der letzten Jahre. Der Begriff ist zunächst positiv besetzt und wird mit Langfristigkeit und Dauerhaftigkeit assoziiert. Heutzutage erscheint vieles als nachhaltig: der Kaffee, die Firmenphilosophie, selbst die Thunfischpizza. Und diesen Anspruch erhebt ausgerechnet eine Konsumgesellschaft, die rücksichtslos im Überfluss badet. Gleich am Morgen geht es los: Das Shampoo entfernt unsere Schuppen „nachhaltig``. Dann fahren wir zur Arbeit in die Firma, die für eine „nachhaltige Unternehmensphilosophie`` steht, am Mittagstisch philosophieren wir über nachhaltige Geldanlagen. Wieder zu Hause, schieben wir eine Thunfischpizza in den Ofen -- laut Verpackung -- aus „nachhaltiger Erzeugung``, versteht sich.
+
+Heute wird Nachhaltigkeit in Zusammenhang mit Energie, Mobilität, Gebäudesanierung, Ernährung, Bevölkerungsentwicklung, betrieblichem Umweltmanagement und Klimaschutz verwendet, ebenso wie in Kunst, Kultur, Design und Werbung.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/sustainable} 
+
+}
+
+\caption{Nachhaltigkeit als buzzword}\label{fig:sustainable}
+\end{figure}
+
+Wenn die Verwendung des Wortes «nachhaltig» weiterhin im selben Tempo wächst, werden im Jahr 2109 alle Sätze nur noch aus dem Wort nachhaltig bestehen (\ref{fig:sustainable})-- klar diese Rechnung ist nonsense und doch hat es etwas: Immer mehr Menschen sprechen von Nachhaltigkeit, die Wissenschaft liefert seit nun mehr 50 Jahren, seit dem Club of Rome 1972, Erkenntnisse, dass unsere Art zu produzieren und konsumieren nicht zukunftsfähig ist, nicht für die Umwelt, aber auch nicht für uns Menschen als Gesellschaft -- doch dieses Wissen alleine führt eben nicht automatisch zur Veränderung -- wie wir heute mehr den je feststellen müssen:
+
+Um zurück auf das Beispiel mit dem Thunfisch zu kommen -- heute wird selbst ein Fisch der vom Aussterben bedroht ist, nachhaltig gefangen.
+
+So müssen wir uns erst einmal darüber verständigen, was sich hinter dem Begriff «Nachhaltigkeit» oder «nachhaltige Entwicklung» konkret verbirgt. Es wird auch vom Leitbild der Nachhaltigkeit oder dem Konzept einer nachhaltigen Entwicklung gesprochen.
+
+\begin{defbox}
+
+Die wichtigsten Vorläufer des Leitbilds einer Nachhaltigen Entwicklung werden wir uns im Detail anschauen:
+
+\begin{itemize}
+\tightlist
+\item
+  Beginn der Diskussion um Nachhaltigkeit: Carlowitz` Waldbewirtschaftungsprinzip 1713
+\item
+  Zusammenprall von Ökonomie und Ökologie \ref{carlowitz}
+\item
+  Erste und zweite UN-Dekade für Entwicklung
+\item
+  Grenzen des Wachstums 1972
+\item
+  Brundtland-Bericht 1987
+\item
+  Rio Gipfel 1992
+\item
+  Agenda 21
+\item
+  Milleniumsziele der UN (MDG)
+\item
+  Agenda 2030 mit den Nachhaltigkeitszielen (SDG)
+\end{itemize}
+
+\end{defbox}
+
+\hypertarget{carlowitz}{%
+\section{Beginn der Diskussion um Nachhaltigkeit}\label{carlowitz}}
+
+Der sächsische Oberberghauptmann Hans Carl von Carlowitz veröffentlichte im Jahr 1713 das Buch ``Sylvicultura oeconomica, oder hauswirthliche Nachricht und Naturmäßige Anweisung zur wilden Baum-Zucht''. In diesem Buch zeigt er die Notwendigkeit und Möglichkeit einer ``nachhaltenden Forstwirtschaft'' auf. Anna Amalia, die Mutter von Herzog Carl August, ist maßgeblich dafür verantwortlich, dass wir heute den Anspruch an Nachhaltigkeit haben. Sie initiierte die erste Forstreform der Welt, um Holz dauerhaft und mit stetigem Ertrag zur Verfügung zu stellen. Damals hatte Europa eine unkontrollierte Gier nach der ``Materia Prima'', sei es für den Schiff- oder Hausbau, zum Kochen oder Heizen. Dadurch drohte die Ressource erschöpft zu werden und nur das kurzfristige Überleben zu sichern, aber nicht das langfristige.
+
+Im 18. Jahrhundert beschäftigten sich Gelehrte nicht nur in Deutschland, sondern in ganz Europa mit der Endlichkeit natürlicher Ressourcen. Im Gegensatz zu von Carlowitz wurde dabei jedoch nicht von Nachhaltigkeit gesprochen. Ein wichtiger Aspekt war die Versorgung der wachsenden Bevölkerung mit Lebensmitteln. Vor der Industrialisierung war der Produktionsfaktor Natur der entscheidende Faktor für das Wirtschaftswachstum, wie beispielsweise die Anzahl der Bergwerke oder gebauten Schiffe, oder der Boden für die Produktion von Nahrungsmitteln. Thomas Robert Malthus, ein britischer Ökonom, warnte aufgrund des seit der Industriellen Revolution starken Bevölkerungswachstums, dass die Produktion von Lebensmitteln künftig nicht mit der Bevölkerungszunahme Schritt halten könne. Malthus These besagte, dass sich die Bevölkerung mit geometrischen Wachstumsraten vermehren würde, während die Produktion von Lebensmitteln nur linear wachsen würde. Obwohl Malthus These nicht eintritt, gelten seine Arbeiten häufig als erstmalige systematische Abhandlung über die Wachstumsgrenzen in einer endlichen Welt.
+
+Malthus Überlegungen gerieten lange Zeit in Vergessenheit, da durch die industrielle Revolution und die Ausbreitung der kapitalistischen Produktionsweise ein unbegrenztes Wachstum möglich schien und natürliche Grenzen bis Mitte des 20. Jahrhunderts kaum mehr thematisiert wurden. Jedoch fand ein neo-malthusianisches Verständnis in Berichten an den 1968 gegründeten Club of Rome, der Debatte um Planetare Grenzen oder auch in Wachstumskritischen Debatten Verbreitung. Obwohl sich der Malthusianismus in der Regel auf äußere, physische Grenzen des Wachstums bezieht, geht es Kallis vor allem darum, persönliche Mäßigung und freiwillige Zurückhaltung als eine weise Lebensauffassung darzustellen, die tiefe Wurzeln in der Romantik und der antiken griechischen Philosophie hat. Kallis plädiert für eine innere Begrenzung unserer Wünsche, um uns von der in der Wirtschaft vorherrschenden Annahme der Knappheit und der damit einhergehenden Besessenheit vom Wachstum zu befreien. Die Realität äußerer Grenzen darf nicht geleugnet, jedoch nicht als Hauptargument der Umweltschützer gegen grenzenloses Wachstum verdrängt werden. Kallis fragt deshalb, ob es sinnvoll ist, den Klimawandel als ein Problem externer Grenzen, der Knappheit oder einer begrenzten Atmosphäre, die nicht mehr von unseren Emissionen aufnehmen kann, darzustellen.
+
+Die Logik, die auf Malthus zurückgeht, ist, mehr zu produzieren, um einer Welt der Grenzen zu begegnen. Solange wir so denken, besteht die natürliche Reaktion darin, zu überlegen, wie wir diese Grenzen überschreiten können, wie wir das Klima so gestalten können, dass es mehr von uns und unseren Wünschen aufnehmen kann.
+
+\hypertarget{zusammenprall-von-uxf6konomie-und-uxf6kologie}{%
+\section{Zusammenprall von Ökonomie und Ökologie}\label{zusammenprall-von-uxf6konomie-und-uxf6kologie}}
+
+Ihrem Ursprung nach ist Nachhaltigkeit ein ressourcenökonomisches Prinzip, das das ökonomische Ziel der maximalen dauerhaften Nutzung des Waldes mit den ökologischen Bedingungen des Nachwachsens kombinierte. Im 19. Jahrhundert entwickelte der deutsche Forstwissenschaftler und Ökonom Max von Cramer-Klett die Reinertragslehre, die besagt, dass der Ertrag aus einem Wald durch den Verkauf von Holz maximiert werden sollte, indem man nur die ältesten und größten Bäume fällt und somit den Wald langfristig und nachhaltig nutzt. Die Theorie hatte großen Einfluss auf die Forstwirtschaft in Deutschland und Europa. Die Reinertragslehre beendete den gemäßigten Holzeinschlag abrupt und die neue Lehre war allein auf die höchstmögliche Verzinsung des investierten Kapitals im Wald ausgerichtet. Der Fokus lag plötzlich auf dem höchstmöglichen direkten Geldertrag anstelle eines stetigen hohen Holzertrags. Statt der Produktivität der Natur war nun der freie Markt und das Gesetz von Angebot und Nachfrage ausschlaggebend. Das neue Credo in Wirtschaft und Gesellschaft war die Gewinnmaximierung und nicht mehr die Naturgesetzmäßigkeit. Die Zyklen der Natur traten zurück und wurden durch die Dynamik des Kapitalismus ersetzt, wobei der Tauschwert vor dem Gebrauchswert stand. Dadurch wurde das Handlungsprinzip Nachhaltigkeit entwertet und es dauerte über hundert Jahre bis in die 1960er und 70er Jahre hinein, bis die wissenschaftlichen Disziplinen Ökologie und Nachhaltigkeit wieder Beachtung fanden.
+
+\hypertarget{grenzen-des-wachstums}{%
+\section{Grenzen des Wachstums}\label{grenzen-des-wachstums}}
+
+\begin{quote}
+``Wenn die gegenwärtige Zunahme der Weltbevölkerung, der Industrialisierung, der Umweltverschmutzung, der Nahrungsmittelproduktion und der Ausbeutung von natürlichen Rohstoffen unverändert anhält, werden die absoluten Wachstumsgrenzen auf der Erde im Laufe der nächsten hundert Jahre erreicht.''
+
+--- Meadows et al.~(1972), S. 17
+\end{quote}
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/clubofrome} 
+
+}
+
+\caption{Computersimulation - Club of Rome}\label{fig:clubofrome}
+\end{figure}
+
+Mit der Gründung und Veröffentlichung des Club of Rome und dem Report ``Limits to growth'' (1972) hat sich die Bedeutung des Begriffs Nachhaltigkeit erheblich erweitert. Wissenschaftler*innen fordern einen globalen Gleichgewichtszustand (Homöostase), der nur durch weltweite Maßnahmen erreicht werden kann. Sie integrieren gezielt ökonomische, ökologische und soziale Aspekte der Nachhaltigkeit und nutzen das Modell der Dynamik komplexer Systeme (Systems Dynamics) für eine homogene Welt. Dabei werden die Wechselwirkungen zwischen Bevölkerungsdichte, Nahrungsmittelressourcen, Energie, Material, Kapital und Umweltzerstörung sowie Landnutzung berücksichtigt. Durch Computersimulation wurden verschiedene Szenarien entwickelt, wobei die Ergebnisse stets ähnlich waren: ein katastrophaler Rückgang der Weltbevölkerung und des Lebensstandards innerhalb von 50 bis 100 Jahren, wenn die aktuellen Trends fortgesetzt werden. Das Problem der ressourcen- und emissionsintensiven Industriegesellschaft besteht darin, dass das Wachstum nicht linear, sondern exponentiell verläuft. Langfristig führt diese Art des Wachstums zum Tod. Meadows argumentiert, dass nur eine Kurskorrektur einen ökologischen Kollaps verhindern kann.
+
+Der ``Limits to Growth'' Bericht wurde für seine Vorhersagen und Methoden stark kritisiert. Einige Kritiker:innen bemängelten, dass das Modell der Dynamik komplexer Systeme zu vereinfacht sei und wichtige Faktoren wie Technologie und Innovation nicht berücksichtigt wurden. Andere kritisierten, dass die Autor:innen die menschliche Anpassungsfähigkeit und die Möglichkeit von politischen Lösungen und Veränderungen nicht ausreichend einbezogen hätten. Einige warfen den Autor:innen auch vor, Malthusianer:innen zu sein und eine düstere und pessimistische Sichtweise auf die Zukunft zu haben. Trotz dieser Kritik hat der Bericht jedoch eine wichtige Debatte über Nachhaltigkeit und die Notwendigkeit von Umweltschutz angestoßen.
+
+Ein Jahr nach dem Erscheinens des Bericht zu den Grenzen des Wachstums publizierte E.F. Schumacher Small is Beautiful: Economics as if people mattered.
+
+\hypertarget{von-der-entwicklungs--zur-nachhaltigkeitsdebatte}{%
+\section{Von der Entwicklungs- zur Nachhaltigkeitsdebatte}\label{von-der-entwicklungs--zur-nachhaltigkeitsdebatte}}
+
+Die Zunahme von Umweltbelastungen, etwa durch Luftschadstoffe oder im Bereich der Gewässerverschmutzung, trug dazu bei, dass Umweltaspekten grösseres Gewicht in Politik und Medien beigemessen wurde (u.a. Gründung Greenpeace 1971). In den 60er und 70er Jahren untersuchte bspw. Paul Crutzen den Einfluss von Stickoxiden auf die Ozonschicht - und sagte mit seinem Forschendenteam voraus, dass diese Schicht durch vom Menschen entwickelte FCKW stark reduziert werden würde. Die Verwendung von FCKW in Kühlschränken und Klimaanlagen wurde auch daraufhin verboten. Die Vereinten Nationen reagierten auf die wachsende Bedeutung der ökologischen Fragen mit der 1972 in Stockholm veranstalteten ersten grossen Umweltkonferenz. Im Nachgang zur Stockholmer Umweltkonferenz entstand das Umweltprogramm der Vereinten Nationen (UNEP). In der Folge dieser Konferenz wurden in zahlreichen Staaten eigenständige Umweltministerien geschaffen.
+
+\begin{figure}
+
+{\centering \includegraphics[width=1\linewidth]{images/CHwaldsterben} 
+
+}
+
+\caption{Schweiz: Waldsterbedebatte, Seenverunreinigung etc. oder auch Tschernobyl (1986)}\label{fig:chwaldsterben}
+\end{figure}
+
+Parallel zu den aufkommenden Umweltproblemen in den 1970er Jahren und 1980er Jahren gab es auch die ersten «Entwicklungskrisen» nach dem Zweiten Weltkrieg. Damals wurde noch unterentwickelten Ländern gesprochen. Man ging ja eigentlich davon aus, nach dem Zweiten Weltkrieg und als der Marshallplan zur Wiederaufbau Europas ja recht erfolgreich war, dass solche Pläne wie der Marshallplan, ein Marshallplan für Afrika, dazu führen würde, dass die armen Länder des Südens sich relativ zügig sozioökonomisch Nachholende entwickeln könnten. Und da wurde man in den 70er, 80er Jahren enttäuscht. Man hat gesehen, dass sogar die vorbildlichen Länder wie Mexiko und Brasilien in eine Verschuldungskrise gerieten und dass diese sozioökonomische nachholende Entwicklung und Überwindung von Armut doch nicht so einfach vor sich geht.
+
+Ab diesem Zeitpunkt war klar, dass die Entwicklungsfrage und die Umweltfrage auf zwischenstaatlicher Ebene gemeinsam gedacht werden mussten. Die Vereinten Nationen reagierten darauf und setzten im Jahr 1983 eine Sachverständigenkommission für Umwelt und Entwicklung (World Commission on Environment and Development) unter dem Vorsitz der norwegischen Ministerpräsidentin Gro Harlem Brundtland ihre Arbeit auf.
+
+\hypertarget{brundland-kommission}{%
+\section{Brundland-Kommission}\label{brundland-kommission}}
+
+Gro Harlem berief 22 Kommissionsmitglieder in die Kommission, ¾ davon stammen aus dem Globalen Süden. Hinzu kam, dass die Sowejtunion einen politischen Kurswechsel aufgrund der zunehmende wirtschaftliche Stagnation in den 1980er Jahren vornahm. Da das Wettrüsten mit den USA zu einem erheblichen Haushaltsdefizit beigetragen hatte, leitete der neue sowjetische Generalsekretär Michail Gorbatschow eine bedeutende Wende ein. Spätestens nach dieser Wende, konnte die Entstehung einer neuen Weltsicht, einem neuen globalen Bewusstsein beobachtet werden. So wurde die Kommission damit betraut einen Perspektivbericht zu langfristig tragfähiger, umweltschonender Entwicklung im Weltmassstab bis zum Jahr 2000 und darüber hinaus zu erarbeiten. Der offizielle Titel des 1987 vorgelegten Berichtes war „Our Common Future``, geläufiger aber ist die Benennung nach der Vorsitzenden, Gro Harlem Brundtland.
+
+Der Hauptbefund des Berichts war, dass globale Umweltprobleme hauptsächlich auf nicht-nachhaltige Konsum- und Produktionsmuster im Norden und großer Armut im Süden zurückzuführen sind. Der Raubbau an der Natur und der Abbau natürlicher Ressourcen führen zu steigender Ungleichheit (Einkommen und Vermögen), zunehmender absoluter Armut und einer Bedrohung für Frieden und Sicherheit. Vor diesem Hintergrund ist es wichtig, eine Definition von Nachhaltigkeit zu entwickeln, die gerechtigkeitsorientiert ist.
+
+\begin{defbox}
+„Nachhaltige Entwicklung ist eine Entwicklung, welche die Bedürfnisse gegenwärtiger Generationen befriedigt, ohne zu riskieren, dass künftige Generationen ihre Bedürfnisse nicht befriedigen können.`` (S. 46)
+
+\end{defbox}
+
+Mit dieser Definition brachte die Kommission explizit eine ethische Perspektive in die Nachhaltigkeitsdiskussion ein und stellte das Prinzip der Verantwortung in den Mittelpunkt, sowohl für heute als auch für zukünftig lebende Menschen. Menschliche Bedürfnisse sowohl der gegenwärtig lebenden Menschen als auch der künftigen Generationen sind in dieser Wendung zentral. Damit nahm die Brundtland-Kommission eine klar anthropozentrische Position ein. Die Brundtland-Kommission identifizierte drei wesentliche Grundprinzipien bei der Analyse von Problemen und Empfehlungen zur Handlung: die globale Perspektive, die Verbindung von Umwelt- und Entwicklungsaspekten und die Umsetzung von Gerechtigkeit. In Bezug auf Gerechtigkeit wurden zwei Perspektiven unterschieden:
+1. Die intergenerationelle Perspektive, die als Verantwortung für zukünftige Generationen verstanden wird.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Die intragenerationelle Perspektive, die sich auf die Verantwortung für die gegenwärtig lebenden Menschen bezieht, insbesondere für die armen Staaten und als Ausgleich innerhalb der Staaten.
+\end{enumerate}
+
+\begin{defbox}
+Unterschied Nachhaltige Entwicklung und Nachhaltigkeit:
+Nachhaltigkeit verweist auf einen Zustand, Statik und Beständigkeit; nachhaltige Entwicklung impliziert Bewegung, Dynamik, das Prozesshafte sowie das Werdende und Entstehende.
+
+\end{defbox}
+
+\hypertarget{von-rio-1992-bis-heute}{%
+\section{Von Rio 1992 bis heute}\label{von-rio-1992-bis-heute}}
+
+Hatte Brundlandt Bericht /Our Common Future auf dringenden Handlungsbedarf in internationalem Rahmen hingewiesen, ging es nun darum, Forderungen und Vorschläge in verbindliche Verträge und Konventionen zu überführen. Als Instrument wählte die UNO hierfür eine Konferenz -- exakt 20 Jahre nach der ersten weltweiten Umweltkonferenz 1972 in Stockholm. Bis damals grösste internationale Konferenz mit Delegierten aus über 170 Nationen.
+
+\begin{factbox}
+Die fünf verabschiedeten Dokumente der Rio-Konferenz sind:
+
+• \emph{Walddeklaration}, die auf die okologische Bewirtschaftung und den Schutz der
+Walder der Erde zielt;
+
+• \emph{Klimaschutz-Konvention}, in der sich die Staaten verpflichten, die Emissionen
+von Treibhausgasen weltweit auf den Stand von 1990 zu reduzieren;
+
+• \emph{Biodiversitätskonvention}, die Schritte gegen die Abnahme der biologischen
+Vielfalt volkerrechtlich bindend festlegt;
+
+• \emph{Deklaration von Rio über Umwelt und Entwicklung} und
+
+• \emph{Agenda 21}. Sie ist das bekannteste der fünf Abkommen. Ihr zufolge ist es an den Regierungen der einzelnen Staaten selbst, für die Umsetzung des Nachhaltigkeitsleitbildes auf nationaler Ebene zu sorgen.
+
+\end{factbox}
+
+\hypertarget{footnotes-and-citations}{%
+\chapter{Footnotes and citations}\label{footnotes-and-citations}}
+
+\hypertarget{footnotes}{%
+\section{Footnotes}\label{footnotes}}
+
+Footnotes are put inside the square brackets after a caret \texttt{\^{}{[}{]}}. Like this one \footnote{This is a footnote.}.
+
+\hypertarget{citations}{%
+\section{Citations}\label{citations}}
+
+Reference items in your bibliography file(s) using \texttt{@key}.
+
+For example, we are using the \textbf{bookdown} package (check out the last code chunk in index.Rmd to see how this citation key was added) in this sample book, which was built on top of R Markdown and \textbf{knitr} \citep{xie2015} (this citation was added manually in an external file book.bib).
+Note that the \texttt{.bib} files need to be listed in the index.Rmd with the YAML \texttt{bibliography} key.
+
+The RStudio Visual Markdown Editor can also make it easier to insert citations: \url{https://rstudio.github.io/visual-markdown-editing/\#/citations}
+
+  \bibliography{book.bib}
+
+\end{document}

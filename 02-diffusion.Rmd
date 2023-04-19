@@ -1,0 +1,21 @@
+---
+title: "Wege der Verbreitung von Nachhaltigkeitsinitiativen"
+author: "Christoph Bader"
+date: "`r Sys.Date()`"
+bibliography: book.bib
+biblio-style: apalike
+link-citations: yes
+description: "Buch Nachhaltigkeitsinitiativen"
+output: bookdown::gitbook
+---
+
+# Die Herausforderungen des 21. Jahrhunderts für eine nachhaltige Entwicklung erfassen und verstehen lernen {#Teil1}
+
+Cross-references make it easier for your readers to find and link to elements in your book.
+
+## Die grosse Beschleunigung {#beschleunigung}
+
+
+
+## Symptome und Ursachen {#symptome_ursachen}
+
