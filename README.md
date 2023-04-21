@@ -1,26 +1,12 @@
 ---
-title: "Readme"
+title: "Buchprojekt "Aus der Nische in die Gesellschaft" Die Rolle von Nachhaltigkeitsinitiativen für eine Nachhaltige Entwicklung"
 ---
 
-Welcome! 
+Im Rahmen des Forschungsprojekts (https://www.cde.unibe.ch/forschung/projekte/aus_der_nische_in_die_gesellschaft_konsumrelevante_soziale_innovationen/index_ger.html)
 
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). 
 
-This template provides a skeleton file structure that you can edit to create your book. 
+*Idee*
 
-The contents inside the .Rmd files provide some pointers to help you get started, but feel free to also delete the content in each file and start fresh.
 
-Additional resources:
-
-The **bookdown** book: https://bookdown.org/yihui/bookdown/
-
-The **bookdown** package reference site: https://pkgs.rstudio.com/bookdown
-
-To render correctly:
-bookdown::render_book("index.Rmd", "bookdown::gitbook", clean = TRUE)
-
-#Use Quiz
-install.packages("quizdown")
--> not compatible with newer R versions
 
 
